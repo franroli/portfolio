@@ -1,6 +1,7 @@
 
 body {
-    background-color: grey;
+    background: rgb(57,57,57);
+    background: linear-gradient(90deg, rgba(57,57,57,1) 0%, rgba(150,150,150,1) 100%);
     font-family: 'Edu SA Beginner', cursive;
     margin: 100px;
     color: rgb(31, 31, 31);
@@ -12,9 +13,11 @@ body {
 }
 
 .fotito {
+    width: 200px;
+    height: 200px;
     text-align: center;
-    border-radius: 70%;
-    border: rgb(104, 104, 104) solid 3px;
+    border-radius: 80%;
+    border: rgb(104, 104, 104) solid 1px;
     box-shadow: 0 0 19px black;
 }
 
@@ -22,6 +25,15 @@ header {
     text-align: center;
     font-size: xx-large;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+header h2 {
+    font-size: x-large;
+    margin-bottom: 20mm;
+}
+
+header h1 {
+    margin: 2mm;
 }
 
 p {

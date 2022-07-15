@@ -5,13 +5,19 @@
     box-sizing: border-box;
 }
 
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 body {
     background: rgb(71, 71, 71);
     background: linear-gradient(90deg, rgb(41, 41, 41) 0%, rgb(117, 117, 117) 100%);
     font-family: 'Edu SA Beginner', cursive;
     margin: 80px;
     color: rgb(31, 31, 31);
-    
     
 }
 
@@ -96,7 +102,7 @@ header {
 }
 
 header h1{
-    margin-top: 0px;
+    margin-top: 0;
 }
 header h2 {
     font-size: x-large;
@@ -107,39 +113,52 @@ header h1 {
     margin: 2mm;
 }
 
-main h2 {
+.main {
+    width: 100%;
+    box-sizing: border-box;
     text-align: center;
-    margin-bottom: 0px;
-    font-size: xx-large;
+    text-align: justify;
 }
 
-main h6 {
+.main h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: xx-large;
+    
+}
+
+.main h6 {
     text-align: center;
     font-size: large;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+
+    
 }
 
 p {
     font-size: medium;
     text-align: justify, left ;
-    margin: 2mm;
     font-weight: bold;
 }
 
 li {
     font-size: medium;
     text-align: justify, left ;
-    margin: 2mm;
     font-weight: bold;
 }
 
 footer h6 {
     font-size: medium;
     text-align: justify;
-    text-align: center;
-    margin: 10mm;
-    
+    text-align: center; 
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background: rgb(71, 71, 71) ;
+    }
+
+    main {
+        width: 100%;
+    }
 }

@@ -169,7 +169,8 @@ footer h6 {
         width: 100%;
     }
 
-    .redes-container ul li {
-      height: 80%;
+    .redes-container{
+      width: 80%;
+
     }
 }

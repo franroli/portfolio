@@ -12,7 +12,7 @@
 	body{
 		background: url(curriculumfondo.jpg);
 		background-repeat: no-repeat;
-		background-size: 150vw;
+		background-size: cover;
 
 		
 	}
@@ -220,7 +220,7 @@
 			padding-top: 10px;
 		}
 		body{
-			background-size: 400vw;
+			background-size: auto;
 		}
 		.main h1 {
 			font-size: 1cm;

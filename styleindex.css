@@ -11,7 +11,7 @@
 	}
 	body{
 		background: url(indexfondo.jpg);
-		background-size: 1600px;
+		background-size: cover;
 		background-repeat: no-repeat;
 		
 	}
@@ -155,7 +155,7 @@
 	
 	@media screen and (max-width: 800px) {
 		body{
-			background-size: 1600px;
+			background-size: auto;
 		}
 		.main h1 {
 			font-size: 35px;

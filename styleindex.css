@@ -153,7 +153,7 @@
 		margin-right: 20%;
 	}
 	
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 1080px) {
 		body{
 			background-size: auto;
 		}

@@ -13,7 +13,9 @@
 		background: url(curriculumfondo.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
-
+		background-position: center center;
+		background-attachment: fixed;
+		background-color: #1c1c1c;
 		
 	}
 	.capa{
@@ -220,7 +222,7 @@
 			padding-top: 10px;
 		}
 		body{
-			background-size: auto;
+			background-size: cover;
 		}
 		.main h1 {
 			font-size: 1cm;

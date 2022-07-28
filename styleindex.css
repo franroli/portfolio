@@ -158,6 +158,7 @@
 	@media screen and (max-width: 1080px) {
 		body{
 			background-size: cover;
+			
 		}
 		.main h1 {
 			font-size: 30px;
